@@ -1,0 +1,19 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+    background-color: #F5F5F6;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    border: 5px solid #353434;
+    background-color: #353434;
+    grid-gap: 5px;
+    max-width: 600px;
+    max-height: 650px;
+}

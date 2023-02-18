@@ -1,0 +1,44 @@
+
+.container.medium {
+    border: 15px solid #353434;
+    padding: 0 20px;
+    grid-gap: 15px;
+    grid-template-columns: 10% 20% 10% 60%;
+    grid-template-rows: 4fr 1fr 8fr 2fr;
+    /* grid-template-rows: 30% 10% 45% 15%; */
+}
+
+.medium .child {
+    padding: 10px;
+    background-color: white;
+}
+
+.medium .two {
+    color: white;
+    grid-column: 2 / 4;
+    background-color: #B33421;
+}
+
+.medium .seven {
+    color: white;
+    background-color: #B33421;
+}
+
+.medium .eight {
+    color: white;
+    background-color: #273A62;
+}
+
+.medium .ten {
+    color: white;
+    background-color: #E7B514;
+}
+
+.medium .thirteen{
+    grid-column: 2 / 4;
+}
+
+.medium .fourteen {
+    color: white;
+    background-color: #273A62;
+}
